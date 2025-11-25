@@ -1,5 +1,8 @@
 # Import the flask class and create an instance of it
 from flask import Flask, render_template
+from config import db_config
+import mysql.connector
+from . import main
 
 app = Flask(__name__)
 
